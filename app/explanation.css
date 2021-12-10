@@ -1,0 +1,28 @@
+body{
+    margin: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #E9D4FF;
+}
+
+h1{
+    font-size: 2.8rem; 
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h2{
+    font-size: 2.1rem;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+h3
+{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.4;
+
+    
+}
