@@ -1,10 +1,10 @@
-// psql -U posgres
+// psql -U postgres
 
 module.exports = {
     HOST: "localhost",
     USER: "postgres",
     PASSWORD: "77809075",
-    DB: "web",
+    DB: "users",
     dialect: "postgres",
     pool: {
       max: 5,

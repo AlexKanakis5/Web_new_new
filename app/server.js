@@ -5,6 +5,10 @@ const cors = require("cors");
 const app = express();
 
 
+const db = require("./models");
+db.sequelize.sync();
+
+
 //Δεν ξέρω ακόμα τι είναι και αν θα το χρησιμοποιήσω
 var corsOptions = {
   origin: "http://localhost:8081"
